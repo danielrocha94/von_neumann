@@ -137,7 +137,7 @@ class App extends Component {
       instr = cont[0].toUpperCase().trim();
     }
     var fn = window.settings[instr];
-    if (typeof fn === 'function' && this.state.isRunning) {
+    if (typeof fn === 'function') {
       fn(dir, val);
     }
   }
@@ -161,7 +161,7 @@ class App extends Component {
       this.runInstruction(instruction);
       this.setState({dirId: dirId +1 });
     } else {
-      this.setState({dirId: 0, isRunning: false})
+      this.setState({dirId: 0, isRunning: false, registers: { ac: 0}})
     }
   }
 
