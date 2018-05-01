@@ -1,0 +1,55 @@
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.main-container {
+  padding-top: 25px;
+}
+
+.ram-table table {
+  text-align: center;
+}
+
+.ram-table table td {
+  padding: 0px;
+}
+
+.ram-table table td {
+  padding: 12px;
+}
+
+table thead {
+  font-size: 24px;
+}
+
+.editable-td {
+  border: red;
+}
+
+.control-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.control-buttons button {
+  width: 45%;
+  height: 62px;
+  font-weight: 600;
+}
+
+.currentRegister {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 16px;
+  font-weight: 600;
+  background-color: #e9ecef;
+  border-radius: .3em;
+  padding: 16px 32px;
+  margin-bottom: 25px;
+}
+
+.currentDirection {
+  background-color: #b0e0e6;
+}
